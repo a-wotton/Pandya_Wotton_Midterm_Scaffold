@@ -3,5 +3,17 @@
 }
 
 .grid {
-    
+    display: grid;
+    grid-template-columns: repeat(12, 120px);
+    grid-column-gap: 16px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.grid-mobile {
+    display: grid;
+    grid-template-columns: repeat(4, 88px);
+    grid-column-gap: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

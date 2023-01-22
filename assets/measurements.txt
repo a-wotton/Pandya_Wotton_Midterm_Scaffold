@@ -1,0 +1,25 @@
+Desktop:
+
+	Font Size:
+	Nav - 34px
+	Subtitle - 50px
+	Body Copy - 24px
+
+	Grid: 
+	Columns - 12
+	Column Width - 120px
+	Gutter Width - 16px
+	Margin - 52px	
+
+Mobile:
+
+	Font Size:
+	Nav - 16px
+	Subtitle - 20px
+	Body Copy - 12px
+
+	Grid:
+	Columns - 4
+	Column Width - 88px
+	Gutter Width - 12px
+	Margin - 20px
