@@ -2,6 +2,15 @@
     display: none;
 }
 
+body {
+    margin: 0, auto;
+    width: 1720px;
+    color: #4E3411;
+    background-color: #EAE4E4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 120px);
@@ -17,3 +26,135 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+header {
+    background-color: #D3916F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo {
+    width: 166px;
+    grid-column: 1/2;
+}
+
+#upper-nav {
+    grid-column: 3/9;
+    display: flex;
+}
+
+#upper-nav ul {
+    margin-top: 30px;
+}
+
+#upper-nav li {
+    display: inline;
+    margin-right: 150px;
+}
+
+#upper-nav li a {
+    text-decoration: none;
+    color: #4E3411;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#social-media-icons {
+    grid-column: 10/-1;
+    margin-top: 20px;
+}
+
+#social-media-icons li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#social-media-icons img {
+    width: 50px;
+}
+
+#about-us {
+    margin-top: 50px;
+}
+
+h2 {
+    grid-column: 1/-1;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about-us p {
+    grid-column: 3/11;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about-us p:last-of-type {
+    border-bottom: solid 2px #4E3411;
+    padding-bottom: 100px;
+}
+
+#product-overview {
+    margin-top: 100px;
+}
+
+#product-overview h3{
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#product-overview p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#flex {
+    grid-column: 3/11;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bottle, #can {
+    width: 360px;
+}
+
+#bottle {
+    margin-left: auto;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #D3916F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#lower-nav {
+    grid-column: 1/5;
+}
+
+#lower-nav li {
+    display: inline;
+}
+
+#lower-nav a{
+    color: #4E3411;
+    margin-right: 64px;
+}
+
+#logo-2 {
+    grid-column: 11/-1;
+    width: 166px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
